@@ -3,6 +3,9 @@ var shopper = {
     age: 59,
     member: true,
     groceryCart: ["milk", "eggs", "bread", "cheese", "apples"],
+    fullName: function() {
+        return this.name;
+    }
      }
 console.log(shopper)
 function getShopper(shopper) {
