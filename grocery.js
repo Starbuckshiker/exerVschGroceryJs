@@ -13,3 +13,4 @@ function getShopper(shopper) {
     console.log(shopper[i].name + " is " + shopper[i].age + " years old!");
   }
 }
+getShopper(shopper);
